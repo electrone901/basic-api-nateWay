@@ -1,4 +1,6 @@
 # Blog API 
+## Notes:
+The app is using mongo, mongoose, express, nodemon.. The structure of this project follows Nate's way, it is easy to aollow and  understand, in case u need to create a basic api with nodejs,mongoose & express follow this. The app starts with server.js, checks app.use('/api', Router) goes to Router folder/index.js. Index.js manage router in this case author & post. Post goes to post-router and if ULR is '/' get all posts and so on.
 ## Setup
 - fork and clone this repo
 - npm install
